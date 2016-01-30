@@ -1,0 +1,265 @@
+heuristic_0
+------------------------
+front : [Warsaw]
+hist : ['Warsaw']
+front : [Budapest, Berlin, Prague, Vienna]
+hist : ['Warsaw', 'Budapest']
+front : [Berlin, Prague, Vienna, Trieste, Belgrade]
+hist : ['Warsaw', 'Budapest', 'Berlin']
+front : [Prague, Vienna, Trieste, Belgrade, Bern, Hamburg]
+hist : ['Warsaw', 'Budapest', 'Berlin', 'Prague']
+front : [Vienna, Trieste, Belgrade, Bern, Hamburg, Munich]
+hist : ['Warsaw', 'Budapest', 'Berlin', 'Prague', 'Vienna']
+front : [Trieste, Belgrade, Bern, Hamburg, Munich]
+hist : ['Warsaw', 'Budapest', 'Berlin', 'Prague', 'Vienna', 'Trieste']
+front : [Belgrade, Bern, Hamburg, Munich, Genoa, Rome]
+hist : ['Warsaw', 'Budapest', 'Berlin', 'Prague', 'Vienna', 'Trieste', 'Belgrade']
+front : [Bern, Hamburg, Munich, Genoa, Rome]
+hist : ['Warsaw', 'Budapest', 'Berlin', 'Prague', 'Vienna', 'Trieste', 'Belgrade', 'Bern']
+front : [Hamburg, Munich, Genoa, Rome, Madrid, Amsterdam, Brussels]
+hist : ['Warsaw', 'Budapest', 'Berlin', 'Prague', 'Vienna', 'Trieste', 'Belgrade', 'Bern', 'Hamburg']
+front : [Munich, Genoa, Rome, Madrid, Amsterdam, Brussels, Copenhagen]
+hist : ['Warsaw', 'Budapest', 'Berlin', 'Prague', 'Vienna', 'Trieste', 'Belgrade', 'Bern', 'Hamburg', 'Munich']
+front : [Genoa, Rome, Madrid, Amsterdam, Brussels, Copenhagen]
+hist : ['Warsaw', 'Budapest', 'Berlin', 'Prague', 'Vienna', 'Trieste', 'Belgrade', 'Bern', 'Hamburg', 'Munich', 'Genoa']
+front : [Rome, Madrid, Amsterdam, Brussels, Copenhagen, Paris]
+hist : ['Warsaw', 'Budapest', 'Berlin', 'Prague', 'Vienna', 'Trieste', 'Belgrade', 'Bern', 'Hamburg', 'Munich', 'Genoa', 'Rome']
+front : [Madrid, Amsterdam, Brussels, Copenhagen, Paris, Naples]
+hist : ['Warsaw', 'Budapest', 'Berlin', 'Prague', 'Vienna', 'Trieste', 'Belgrade', 'Bern', 'Hamburg', 'Munich', 'Genoa', 'Rome', 'Madrid']
+front : [Amsterdam, Brussels, Copenhagen, Paris, Naples, Lisbon]
+hist : ['Warsaw', 'Budapest', 'Berlin', 'Prague', 'Vienna', 'Trieste', 'Belgrade', 'Bern', 'Hamburg', 'Munich', 'Genoa', 'Rome', 'Madrid', 'Amsterdam']
+front : [Brussels, Copenhagen, Paris, Naples, Lisbon]
+hist : ['Warsaw', 'Budapest', 'Berlin', 'Prague', 'Vienna', 'Trieste', 'Belgrade', 'Bern', 'Hamburg', 'Munich', 'Genoa', 'Rome', 'Madrid', 'Amsterdam', 'Brussels']
+front : [Copenhagen, Paris, Naples, Lisbon]
+hist : ['Warsaw', 'Budapest', 'Berlin', 'Prague', 'Vienna', 'Trieste', 'Belgrade', 'Bern', 'Hamburg', 'Munich', 'Genoa', 'Rome', 'Madrid', 'Amsterdam', 'Brussels', 'Copenhagen']
+front : [Paris, Naples, Lisbon]
+hist : ['Warsaw', 'Budapest', 'Berlin', 'Prague', 'Vienna', 'Trieste', 'Belgrade', 'Bern', 'Hamburg', 'Munich', 'Genoa', 'Rome', 'Madrid', 'Amsterdam', 'Brussels', 'Copenhagen', 'Paris']
+front : [Naples, Lisbon]
+hist : ['Warsaw', 'Budapest', 'Berlin', 'Prague', 'Vienna', 'Trieste', 'Belgrade', 'Bern', 'Hamburg', 'Munich', 'Genoa', 'Rome', 'Madrid', 'Amsterdam', 'Brussels', 'Copenhagen', 'Paris', 'Naples']
+front : [Lisbon]
+hist : ['Warsaw', 'Budapest', 'Berlin', 'Prague', 'Vienna', 'Trieste', 'Belgrade', 'Bern', 'Hamburg', 'Munich', 'Genoa', 'Rome', 'Madrid', 'Amsterdam', 'Brussels', 'Copenhagen', 'Paris', 'Naples', 'Lisbon']
+
+Nombre de ville visiter: 19
+distance parcouru : 2416 km
+
+Chemin :
+Warsaw (0 km)
+Berlin (345 km)
+Bern (973 km)
+Madrid (2077 km)
+Lisbon (2416 km)
+
+heuristic_distance_x
+------------------------
+front : [Warsaw]
+hist : ['Warsaw']
+front : [Budapest, Vienna, Prague, Berlin]
+hist : ['Warsaw', 'Budapest']
+front : [Belgrade, Vienna, Trieste, Prague, Berlin]
+hist : ['Warsaw', 'Budapest', 'Belgrade']
+front : [Vienna, Trieste, Prague, Berlin]
+hist : ['Warsaw', 'Budapest', 'Belgrade', 'Vienna']
+front : [Trieste, Munich, Prague, Berlin]
+hist : ['Warsaw', 'Budapest', 'Belgrade', 'Vienna', 'Trieste']
+front : [Rome, Munich, Prague, Genoa, Berlin, Bern]
+hist : ['Warsaw', 'Budapest', 'Belgrade', 'Vienna', 'Trieste', 'Rome']
+front : [Naples, Munich, Prague, Genoa, Berlin, Bern]
+hist : ['Warsaw', 'Budapest', 'Belgrade', 'Vienna', 'Trieste', 'Rome', 'Naples']
+front : [Munich, Prague, Genoa, Berlin, Bern]
+hist : ['Warsaw', 'Budapest', 'Belgrade', 'Vienna', 'Trieste', 'Rome', 'Naples', 'Munich']
+front : [Prague, Genoa, Amsterdam, Berlin, Bern]
+hist : ['Warsaw', 'Budapest', 'Belgrade', 'Vienna', 'Trieste', 'Rome', 'Naples', 'Munich', 'Prague']
+front : [Genoa, Amsterdam, Berlin, Bern]
+hist : ['Warsaw', 'Budapest', 'Belgrade', 'Vienna', 'Trieste', 'Rome', 'Naples', 'Munich', 'Prague', 'Genoa']
+front : [Brussels, Amsterdam, Paris, Berlin, Bern, Madrid]
+hist : ['Warsaw', 'Budapest', 'Belgrade', 'Vienna', 'Trieste', 'Rome', 'Naples', 'Munich', 'Prague', 'Genoa', 'Brussels']
+front : [Amsterdam, Paris, Berlin, Bern, Madrid]
+hist : ['Warsaw', 'Budapest', 'Belgrade', 'Vienna', 'Trieste', 'Rome', 'Naples', 'Munich', 'Prague', 'Genoa', 'Brussels', 'Amsterdam']
+front : [Hamburg, Paris, Berlin, Bern, Madrid]
+hist : ['Warsaw', 'Budapest', 'Belgrade', 'Vienna', 'Trieste', 'Rome', 'Naples', 'Munich', 'Prague', 'Genoa', 'Brussels', 'Amsterdam', 'Hamburg']
+front : [Copenhagen, Paris, Berlin, Bern, Madrid]
+hist : ['Warsaw', 'Budapest', 'Belgrade', 'Vienna', 'Trieste', 'Rome', 'Naples', 'Munich', 'Prague', 'Genoa', 'Brussels', 'Amsterdam', 'Hamburg', 'Copenhagen']
+front : [Paris, Berlin, Bern, Madrid]
+hist : ['Warsaw', 'Budapest', 'Belgrade', 'Vienna', 'Trieste', 'Rome', 'Naples', 'Munich', 'Prague', 'Genoa', 'Brussels', 'Amsterdam', 'Hamburg', 'Copenhagen', 'Paris']
+front : [Berlin, Bern, Madrid]
+hist : ['Warsaw', 'Budapest', 'Belgrade', 'Vienna', 'Trieste', 'Rome', 'Naples', 'Munich', 'Prague', 'Genoa', 'Brussels', 'Amsterdam', 'Hamburg', 'Copenhagen', 'Paris', 'Berlin']
+front : [Bern, Madrid]
+hist : ['Warsaw', 'Budapest', 'Belgrade', 'Vienna', 'Trieste', 'Rome', 'Naples', 'Munich', 'Prague', 'Genoa', 'Brussels', 'Amsterdam', 'Hamburg', 'Copenhagen', 'Paris', 'Berlin', 'Bern']
+front : [Madrid]
+hist : ['Warsaw', 'Budapest', 'Belgrade', 'Vienna', 'Trieste', 'Rome', 'Naples', 'Munich', 'Prague', 'Genoa', 'Brussels', 'Amsterdam', 'Hamburg', 'Copenhagen', 'Paris', 'Berlin', 'Bern', 'Madrid']
+front : [Lisbon]
+hist : ['Warsaw', 'Budapest', 'Belgrade', 'Vienna', 'Trieste', 'Rome', 'Naples', 'Munich', 'Prague', 'Genoa', 'Brussels', 'Amsterdam', 'Hamburg', 'Copenhagen', 'Paris', 'Berlin', 'Bern', 'Madrid', 'Lisbon']
+
+Nombre de ville visiter: 19
+distance parcouru : 2429 km
+
+Chemin :
+Warsaw (0 km)
+Budapest (394 km)
+Trieste (778 km)
+Genoa (1139 km)
+Madrid (2090 km)
+Lisbon (2429 km)
+
+heuristic_distance_y
+------------------------
+front : [Warsaw]
+hist : ['Warsaw']
+front : [Berlin, Prague, Vienna, Budapest]
+hist : ['Warsaw', 'Berlin']
+front : [Hamburg, Prague, Vienna, Budapest, Bern]
+hist : ['Warsaw', 'Berlin', 'Hamburg']
+front : [Amsterdam, Copenhagen, Prague, Vienna, Budapest, Bern]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Amsterdam']
+front : [Brussels, Copenhagen, Prague, Munich, Vienna, Budapest, Bern]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Amsterdam', 'Brussels']
+front : [Paris, Copenhagen, Prague, Munich, Vienna, Budapest, Bern, Genoa]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Amsterdam', 'Brussels', 'Paris']
+front : [Copenhagen, Prague, Munich, Vienna, Budapest, Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Amsterdam', 'Brussels', 'Paris', 'Copenhagen']
+front : [Prague, Munich, Vienna, Budapest, Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Amsterdam', 'Brussels', 'Paris', 'Copenhagen', 'Prague']
+front : [Munich, Vienna, Budapest, Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Amsterdam', 'Brussels', 'Paris', 'Copenhagen', 'Prague', 'Munich']
+front : [Vienna, Budapest, Bern, Genoa, Rome, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Amsterdam', 'Brussels', 'Paris', 'Copenhagen', 'Prague', 'Munich', 'Vienna']
+front : [Trieste, Belgrade, Budapest, Bern, Genoa, Rome, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Amsterdam', 'Brussels', 'Paris', 'Copenhagen', 'Prague', 'Munich', 'Vienna', 'Trieste']
+front : [Belgrade, Budapest, Bern, Genoa, Rome, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Amsterdam', 'Brussels', 'Paris', 'Copenhagen', 'Prague', 'Munich', 'Vienna', 'Trieste', 'Belgrade']
+front : [Budapest, Bern, Genoa, Rome, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Amsterdam', 'Brussels', 'Paris', 'Copenhagen', 'Prague', 'Munich', 'Vienna', 'Trieste', 'Belgrade', 'Budapest']
+front : [Bern, Genoa, Rome, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Amsterdam', 'Brussels', 'Paris', 'Copenhagen', 'Prague', 'Munich', 'Vienna', 'Trieste', 'Belgrade', 'Budapest', 'Bern']
+front : [Genoa, Rome, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Amsterdam', 'Brussels', 'Paris', 'Copenhagen', 'Prague', 'Munich', 'Vienna', 'Trieste', 'Belgrade', 'Budapest', 'Bern', 'Genoa']
+front : [Rome, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Amsterdam', 'Brussels', 'Paris', 'Copenhagen', 'Prague', 'Munich', 'Vienna', 'Trieste', 'Belgrade', 'Budapest', 'Bern', 'Genoa', 'Rome']
+front : [Naples, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Amsterdam', 'Brussels', 'Paris', 'Copenhagen', 'Prague', 'Munich', 'Vienna', 'Trieste', 'Belgrade', 'Budapest', 'Bern', 'Genoa', 'Rome', 'Naples']
+front : [Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Amsterdam', 'Brussels', 'Paris', 'Copenhagen', 'Prague', 'Munich', 'Vienna', 'Trieste', 'Belgrade', 'Budapest', 'Bern', 'Genoa', 'Rome', 'Naples', 'Madrid']
+front : [Lisbon]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Amsterdam', 'Brussels', 'Paris', 'Copenhagen', 'Prague', 'Munich', 'Vienna', 'Trieste', 'Belgrade', 'Budapest', 'Bern', 'Genoa', 'Rome', 'Naples', 'Madrid', 'Lisbon']
+
+Nombre de ville visiter: 19
+distance parcouru : 2398 km
+
+Chemin :
+Warsaw (0 km)
+Berlin (345 km)
+Hamburg (527 km)
+Amsterdam (865 km)
+Brussels (1029 km)
+Paris (1254 km)
+Madrid (2059 km)
+Lisbon (2398 km)
+
+heuristic_vol_oiseau
+------------------------
+front : [Warsaw]
+hist : ['Warsaw']
+front : [Berlin, Prague, Budapest, Vienna]
+hist : ['Warsaw', 'Berlin']
+front : [Hamburg, Prague, Budapest, Vienna, Bern]
+hist : ['Warsaw', 'Berlin', 'Hamburg']
+front : [Copenhagen, Amsterdam, Prague, Budapest, Vienna, Bern]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen']
+front : [Amsterdam, Prague, Budapest, Vienna, Bern]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam']
+front : [Brussels, Prague, Budapest, Vienna, Munich, Bern]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels']
+front : [Paris, Prague, Budapest, Vienna, Munich, Bern, Genoa]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris']
+front : [Prague, Budapest, Vienna, Munich, Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Prague']
+front : [Budapest, Vienna, Munich, Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Prague', 'Budapest']
+front : [Belgrade, Trieste, Vienna, Munich, Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Prague', 'Budapest', 'Belgrade']
+front : [Trieste, Vienna, Munich, Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Prague', 'Budapest', 'Belgrade', 'Trieste']
+front : [Rome, Vienna, Munich, Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Prague', 'Budapest', 'Belgrade', 'Trieste', 'Rome']
+front : [Naples, Vienna, Munich, Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Prague', 'Budapest', 'Belgrade', 'Trieste', 'Rome', 'Naples']
+front : [Vienna, Munich, Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Prague', 'Budapest', 'Belgrade', 'Trieste', 'Rome', 'Naples', 'Vienna']
+front : [Munich, Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Prague', 'Budapest', 'Belgrade', 'Trieste', 'Rome', 'Naples', 'Vienna', 'Munich']
+front : [Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Prague', 'Budapest', 'Belgrade', 'Trieste', 'Rome', 'Naples', 'Vienna', 'Munich', 'Bern']
+front : [Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Prague', 'Budapest', 'Belgrade', 'Trieste', 'Rome', 'Naples', 'Vienna', 'Munich', 'Bern', 'Genoa']
+front : [Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Prague', 'Budapest', 'Belgrade', 'Trieste', 'Rome', 'Naples', 'Vienna', 'Munich', 'Bern', 'Genoa', 'Madrid']
+front : [Lisbon]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Prague', 'Budapest', 'Belgrade', 'Trieste', 'Rome', 'Naples', 'Vienna', 'Munich', 'Bern', 'Genoa', 'Madrid', 'Lisbon']
+
+Nombre de ville visiter: 19
+distance parcouru : 2398 km
+
+Chemin :
+Warsaw (0 km)
+Berlin (345 km)
+Hamburg (527 km)
+Amsterdam (865 km)
+Brussels (1029 km)
+Paris (1254 km)
+Madrid (2059 km)
+Lisbon (2398 km)
+
+heuristic_manhattan
+------------------------
+front : [Warsaw]
+hist : ['Warsaw']
+front : [Berlin, Budapest, Prague, Vienna]
+hist : ['Warsaw', 'Berlin']
+front : [Hamburg, Budapest, Prague, Vienna, Bern]
+hist : ['Warsaw', 'Berlin', 'Hamburg']
+front : [Copenhagen, Amsterdam, Budapest, Prague, Vienna, Bern]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen']
+front : [Amsterdam, Budapest, Prague, Vienna, Bern]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam']
+front : [Brussels, Budapest, Prague, Vienna, Munich, Bern]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels']
+front : [Paris, Budapest, Prague, Vienna, Munich, Bern, Genoa]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris']
+front : [Budapest, Prague, Vienna, Munich, Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Budapest']
+front : [Belgrade, Trieste, Prague, Vienna, Munich, Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Budapest', 'Belgrade']
+front : [Trieste, Prague, Vienna, Munich, Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Budapest', 'Belgrade', 'Trieste']
+front : [Rome, Prague, Vienna, Munich, Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Budapest', 'Belgrade', 'Trieste', 'Rome']
+front : [Naples, Prague, Vienna, Munich, Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Budapest', 'Belgrade', 'Trieste', 'Rome', 'Naples']
+front : [Prague, Vienna, Munich, Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Budapest', 'Belgrade', 'Trieste', 'Rome', 'Naples', 'Prague']
+front : [Vienna, Munich, Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Budapest', 'Belgrade', 'Trieste', 'Rome', 'Naples', 'Prague', 'Vienna']
+front : [Munich, Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Budapest', 'Belgrade', 'Trieste', 'Rome', 'Naples', 'Prague', 'Vienna', 'Munich']
+front : [Bern, Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Budapest', 'Belgrade', 'Trieste', 'Rome', 'Naples', 'Prague', 'Vienna', 'Munich', 'Bern']
+front : [Genoa, Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Budapest', 'Belgrade', 'Trieste', 'Rome', 'Naples', 'Prague', 'Vienna', 'Munich', 'Bern', 'Genoa']
+front : [Madrid]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Budapest', 'Belgrade', 'Trieste', 'Rome', 'Naples', 'Prague', 'Vienna', 'Munich', 'Bern', 'Genoa', 'Madrid']
+front : [Lisbon]
+hist : ['Warsaw', 'Berlin', 'Hamburg', 'Copenhagen', 'Amsterdam', 'Brussels', 'Paris', 'Budapest', 'Belgrade', 'Trieste', 'Rome', 'Naples', 'Prague', 'Vienna', 'Munich', 'Bern', 'Genoa', 'Madrid', 'Lisbon']
+
+Nombre de ville visiter: 19
+distance parcouru : 2398 km
+
+Chemin :
+Warsaw (0 km)
+Berlin (345 km)
+Hamburg (527 km)
+Amsterdam (865 km)
+Brussels (1029 km)
+Paris (1254 km)
+Madrid (2059 km)
+Lisbon (2398 km)
+
